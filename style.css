@@ -1,0 +1,182 @@
+/*
+	Copyright © 2009 Daniel A. Krasilnikov (Mind3doM)
+	
+	This file is part of "Mind3doM RyeBread Widgets".
+
+	"Mind3doM RyeBread Widgets" is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	"Mind3doM RyeBread Widgets" is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with "Mind3doM RyeBread Widgets".  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+@CHARSET "UTF-8";
+
+button {
+	width:80px;
+	font-weight:bolder;
+	font-size:10pt;
+}
+
+button:hover {
+	text-decoration: underline;
+}
+
+table.rb_man_console {
+	width:100%;
+	border-collapse:collapse;
+	vertical-align: top;
+	table-layout: auto;
+}
+
+table.rb_man_console tr.toolbar {
+	height:25px;
+}
+
+div.subitems {
+	padding-left:15px;
+}
+
+table.rb_man_console th button {
+	padding:2px;
+	width:90px;
+	font-size: 10pt;
+	margin-left:3px;
+	text-align:center;
+}
+
+table.rb_man_console th {
+	border-style:solid;
+	vertical-align: top;
+	text-align: left;
+}
+
+table.rb_man_console td {
+	border-style:solid;
+	vertical-align: top;
+}
+
+
+table.rb_class_man_console {
+	width:400px;
+	border-collapse:collapse;
+	border-width:2px;
+	border-color:black;
+}
+
+table.rb_class_man_console th {
+	padding:3px;
+	background-color:silver;
+	border-width:2px;
+	border-color:black;
+}
+
+table.rb_class_man_console tr.item0 {
+	background-color:#B1CC78;
+}
+
+table.rb_class_man_console tr.item1 {
+	background-color:#C1D694;
+}
+
+table.rb_class_man_console td {
+	padding:3px;
+	border-width:1px;
+	border-color:#73854D;
+}
+
+div.man_console {
+	padding-left:10px;
+}
+
+div.container {
+	margin-top:8px;
+	width:600px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#73854D;
+}
+
+div.container_title {
+	border-style:solid;
+	border-width:2px;
+	border-color:#73854D;
+	background-color:#B1CC78;
+	font-weight:bold;
+	font-size:11pt;
+	cursor:pointer;
+}
+
+div.container_title:hover {
+	background-color:#D5E3B8;
+}
+
+div.container_title table td {
+	font-weight:bold;
+	font-size:11pt;
+}
+
+div.container_widgets{
+	padding-left:10px;
+	padding-bottom:5px;
+}
+
+div.widget {
+	border-style:none;
+	border-width:1px;
+	border-color:#73854D;
+	width:500px;
+	margin-top:5px;
+}
+
+div.widget_title {
+	border-style:solid;
+	border-width:2px;
+	border-color:#73854D;
+	background-color:#C1D694;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+div.widget_title:hover {
+	background-color:#D5E3B8;
+}
+
+div.widget_title table td {
+	font-weight:bold;
+}
+	
+div.widget_conf {
+	border-style:solid;
+	border-width:1px;
+	border-color:#73854D;
+	background-color:#D4E0BA;
+	margin-left:10px;
+	padding: 4px;
+}
+
+table.addopers {
+	width:600px;
+}
+
+table.addopers td {
+	text-align:center;
+	border-style:none;
+	border-color:#73854D;
+	border-width:2px;
+	background-color:#D5E3B8;
+}
+
+table.addopers td td {
+	border-style:none;
+	text-align:left;
+}
+
+
